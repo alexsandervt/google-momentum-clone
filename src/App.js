@@ -6,7 +6,6 @@ import Quote from "./components/Quotes";
 const App = () => {
   return (
     <div>
-      <h2>Olá</h2>
       <Weather />
       <Time />
       <DateToday />

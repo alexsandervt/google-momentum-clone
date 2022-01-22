@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
+import { Container, Text } from "./QuoteStyles";
 
 const url = "https://goquotes-api.herokuapp.com/api/v1/all/quotes";
 
@@ -22,10 +23,10 @@ const Quote = () => {
   if (!data) return null;
 
   return (
-    <div>
-      <p>{data.quotes[0].text}</p>
-      <p>{data.quotes[0].author}</p>
-    </div>
+    <Container>
+      <Text>{data.quotes[0].text}</Text>
+      <Text>{data.quotes[0].author}</Text>
+    </Container>
   );
 };
 

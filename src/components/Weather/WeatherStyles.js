@@ -6,8 +6,13 @@ export const Container = styled.div`
 `;
 
 export const Temp = styled.p`
-  font-size: 4rem;
+  font-size: 2rem;
   font-weight: bold;
   color: #fff;
   margin: 0;
+`;
+
+export const City = styled.p`
+  text-align: left;
+  margin: 4px 0;
 `;
