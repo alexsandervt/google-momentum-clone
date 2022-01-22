@@ -4,7 +4,7 @@ Clone do Google Momentum usando o Axios para conversar com nossas diferentes API
 Axios é um cliente HTTP prometido para node que torna a conversa com APIs limpa e simples.</br>
 Usamos React Hooks como useState e useEffect para trabalhar com Axios.
 
-<img src="./public/img/tela.png" width="70%">
+<img src="./public/img/tela.png">
 
 APIs utilizadas no projeto!
 
