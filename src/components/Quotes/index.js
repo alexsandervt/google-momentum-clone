@@ -2,7 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { Container, Text } from "./QuoteStyles";
 
-const url = "https://goquotes-api.herokuapp.com/api/v1/all/quotes";
+const url = "https://goquotes-api.herokuapp.com/api/v1/random?count=1";
 
 const Quote = () => {
   const [data, setData] = useState(null);
@@ -17,8 +17,6 @@ const Quote = () => {
         console.log(error);
       });
   }, []);
-
-  console.log(data);
 
   if (!data) return null;
 
