@@ -1,7 +1,7 @@
-import Time from "./components/Time";
-import DateToday from "./components/Date";
-import Quote from "./components/Quote";
 import { Weather } from "./components/Weather";
+import Time from "./components/Time";
+import DateToday from "./components/Date/";
+import Quote from "./components/Quotes";
 
 const App = () => {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import { DateContainer } from "./DataStyle";
+import { DateContainer } from "./DateStyles";
 
 const DateToday = () => {
   let today = new Date();
