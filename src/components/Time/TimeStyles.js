@@ -22,8 +22,8 @@ export const TimeStamp = styled.p`
 `;
 
 export const Greeting = styled.p`
-  font-size: 4rem;
-  font-weight: 600;
+  font-size: 2rem;
+  font-weight: 300;
   margin: 0;
   padding: 0;
 

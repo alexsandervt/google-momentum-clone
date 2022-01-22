@@ -24,7 +24,7 @@ export const Weather = () => {
   return (
     <Container>
       <Temp>{data.main.temp.toFixed(0)}&#176;</Temp>
-      <City>City BR</City>
+      <City>Florianópolis SC</City>
     </Container>
   );
 };

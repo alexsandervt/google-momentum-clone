@@ -8,11 +8,11 @@ const Time = () => {
 
   let greeting = () => {
     if (today.getHours() >= 6 && today.getHours() < 12) {
-      return "Bom dia";
+      return "Bom dia! Que seu dia seja maravilhoso.";
     } else if (today.getHours() >= 12 && today.getHours() < 18) {
-      return "Boa tarde";
+      return "Boa tarde, não esqueça de se hidratar.";
     } else if (today.getHours() >= 18 && today.getHours() < 24) {
-      return "Boa Noite";
+      return "Boa Noite! Aproveite e tenha uma ótima noite de sono.";
     } else {
     }
   };
